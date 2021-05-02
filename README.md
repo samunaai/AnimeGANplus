@@ -5,5 +5,6 @@ Please note that you may setup the required dependencies for running these Jupyt
 `conda env create -f environment.yml`
 
 The role of the various files and folders is as follows
-- The FID_tensorflow.ipynb can be used to calculate the Frechet Inception Distance between true and generated cartoonised images.
-- The Linux commands in ffmpeg.txt can be used for video editing techniques such as stitching videos together downsampling, and addition of sound.
+- The FID_tensorflow.ipynb can be used to calculate the Frechet Inception Distance between true and generated cartoonised images
+- The Linux commands in ffmpeg.txt can be used for video editing techniques such as stitching videos together downsampling, and addition of sound
+- The samples folder contains sample inputs and outputs for individual frames generated using Paprika style. We explain in our paper, the apparent content loss is a desirable feature that enhances the cartoonisation effect when frames are stitched together into a video
