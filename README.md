@@ -17,9 +17,15 @@ The three training datasets for AnimeGANplus can be downloaded using a single bl
 
 Here are some pictures from out AnimeGANplus paper:
 
-comparison of authors using Hayao (2nd column), Paprika (3rd column) and Shinkai styles (4th column)
+comparison of authors (1st column) using Hayao (2nd column), Paprika (3rd column) and Shinkai styles (4th column)
 ![authors_method](https://user-images.githubusercontent.com/22077758/116824306-8931fd00-ab9a-11eb-95e6-e2640423fc44.png)
-![char_isolation](https://user-images.githubusercontent.com/22077758/116824319-94852880-ab9a-11eb-940c-608d888d6428.png)
+
+
+
+AnimeGANplus (2nd row), converges faster with fewer artefacts than AnimeGANv1 (1st row)
 ![epoch](https://user-images.githubusercontent.com/22077758/116824321-9949dc80-ab9a-11eb-8182-15c0dd1654a3.png)
-![hoth_mustafar](https://user-images.githubusercontent.com/22077758/116824324-9a7b0980-ab9a-11eb-8a2e-69233e8fc8b5.png)
+
+
+
+Famous actors and superheroes they play (1st row) cartoonised with AnimeGANplus in Paprika style (2nd row) and Shinkai style (3rd row)
 ![superheroes](https://user-images.githubusercontent.com/22077758/116824325-9b13a000-ab9a-11eb-8fe3-8e85a0633bd2.png)
