@@ -5,12 +5,12 @@ Please note that you may setup the required dependencies for running the Jupyter
 `conda env create -f environment.yml`.
 
 
-The role of the various files and folders is as follows
-- The `FID_tensorflow.ipynb` can be used to calculate the Frechet Inception Distance between true and generated cartoonised images
+The role of the various files and folders is as follows:
+- The `FID_tensorflow.ipynb` can be used to calculate the Frechet Inception Distance (FID) between true and generated cartoonised images. Demo input samples are in the folders: fid_samples/FID_generated_images and fid_samples/FID_original_images.  
 - The Linux commands in `ffmpeg.txt` can be used for video editing techniques such as stitching videos together downsampling, and addition of sound
 - The `video_maker.ipynb` contains the code for stitching output frames from our model into a final movie result
-- The `samples` folder contains `demo` inputs and outputs for individual frames generated using Paprika style. These frames were taken from the original video, as well as cartoonised version that we made, using the Katna keyframe extraction
-- The `keyframe_extraction.ipynb` contains the code making use of Katna to perform keyframe extraction based on sum of absolute differences in LUV colorspace.
+- The `samples` folder contains `demo` inputs and outputs for individual frames generated using Paprika style. These frames were taken from the original video, as well as cartoonised version that we made, using the Katna keyframe extraction. 
+- The `keyframe_extraction.ipynb` contains the code making use of Katna to perform keyframe extraction based on sum of absolute differences in LUV colorspace. The demo input sample for this code is the MBZUAI promotional video found in https://www.youtube.com/watch?v=ccrbvLG4JYw. The demo output sample images are in samples/inputs folder.   
 - `animeganplus.ipynb` contains the code for AnimeGANplus
  
 The three training datasets for AnimeGANplus can be downloaded using a single block of code included in the `animeganplus.ipynb` file.
