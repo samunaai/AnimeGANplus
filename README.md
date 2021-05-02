@@ -17,7 +17,7 @@ The three training datasets for AnimeGANplus can be downloaded using a single bl
 
 Here are some pictures from out AnimeGANplus paper:
 
-😊 :blush: comparison of authors (1st column) using Hayao (2nd column), Paprika (3rd column) and Shinkai styles (4th column)
+😊 comparison of authors (1st column) using Hayao (2nd column), Paprika (3rd column) and Shinkai styles (4th column)
 ![authors_method](https://user-images.githubusercontent.com/22077758/116824306-8931fd00-ab9a-11eb-95e6-e2640423fc44.png)
 
 
