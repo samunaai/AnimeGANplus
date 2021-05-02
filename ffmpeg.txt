@@ -1,0 +1,37 @@
+1) How to remove sound from a video
+input_file=input.mp4
+output_file=output_nosound.mp4
+ffmpeg -i $input_file -c copy -an $output_file
+
+2) How to add sound to a video
+ffmpeg -i inpput.mp4 -i sound.mp3 -c copy -map 0:v:0 -map 1:a:0 output_sound.mp4
+
+3) How to shorten a video clip
+input_file=input.mp4
+output_file=output_nosound.mp4
+ffmpeg -i $input_file -c copy -an $output_file
+
+4) How to downsample a video
+ffmpeg -i input_file.mp4 -vf scale=iw/2:-1 -strict -2 output_file.mp4
+
+5) How to slow down a video
+a) first push to a raw bitstream
+ffmpeg -i input.mp4 -map 0:v -bsf:v h264_mp4toannexb raw.h264 
+b) then take from this bitstream using -r to control the frame rate
+ ffmpeg -fflags +genpts -r 15 -i raw.h264 -c:v copy output.mp4 
+
+6) How to cut/shorten a video or audio (times are start and end time) 
+ffmpeg -ss 00:00:00 -i input.mp4 -c copy -t 00:01:20 shortened.mp4
+
+7) Combine multiple videos into one (list in files.txt)
+ffmpeg -f concat -safe 0 -i files.txt -c copy concatenated.mp4
+
+8) Resizing Movie frame size
+ffmpeg -i input.mp4 -vf scale=$width:$height output.mp4
+
+9) Removing sound from video (use the -an flag)
+ffmpeg -i input_file.mp4 -c copy -an $output_file.mp4
+
+10) Putting two same-size videos side by side
+ffmpeg -i first_input.mp4 -i second_input.mp4 -strict -2 -filter_complex hstack output.mp4
+
