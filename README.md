@@ -15,8 +15,9 @@ The role of the various files and folders is as follows:
  
 The three training datasets for AnimeGANplus can be downloaded using a single block of code included in the `animeganplus.ipynb` file.
 
-Links to our cartoonised videos are:
-https://www.youtube.com/watch?v=jhuv-PCNcok
+Sample cartoonised videos can be found in the links below:
+1. [Star Wars Animations](https://www.youtube.com/watch?v=jhuv-PCNcok) 
+2. [MBZUAI Students Visit Dubai](https://youtu.be/SshWGqukons)
 
 Here are some pictures from out AnimeGANplus paper:
 
