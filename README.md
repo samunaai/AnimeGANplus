@@ -15,6 +15,9 @@ The role of the various files and folders is as follows
  
 The three training datasets for AnimeGANplus can be downloaded using a single block of code included in the `animeganplus.ipynb` file.
 
+Links to our cartoonised videos are:
+https://www.youtube.com/watch?v=jhuv-PCNcok
+
 Here are some pictures from out AnimeGANplus paper:
 
 😊 Comparison of authors (1st column) using Hayao (2nd column), Paprika (3rd column) and Shinkai styles (4th column)
