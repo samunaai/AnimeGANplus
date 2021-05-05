@@ -1,5 +1,5 @@
-# 🚀 AnimeGANplus :movie_camera:
-This repository contains our work on AnimeGANplus.
+# 🚀 AnimeGANplus 
+This repository contains our work on movie to cartoon translation with AnimeGANplus. :movie_camera:
 
 Please note that you may setup the required dependencies for running the Jupyter notebooks using 
 `conda env create -f environment.yml`.
