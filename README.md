@@ -10,6 +10,7 @@ The role of the various files and folders is as follows:
 - The Linux commands in `ffmpeg.txt` can be used for video editing techniques such as stitching videos together downsampling, and addition of sound
 - The `video_maker.ipynb` contains the code for stitching output frames from our model into a final movie result
 - The `samples` folder contains `demo` inputs and outputs for individual frames generated using Paprika style. These frames were taken from the original video, as well as cartoonised version that we made, using the Katna keyframe extraction. 
+- The `fid_samples` folder contains two collections of sample images which can be passed to `FID_tensorflow.ipynb` to compute FID 
 - The `keyframe_extraction.ipynb` contains the code making use of Katna to perform keyframe extraction based on sum of absolute differences in LUV colorspace. The demo input sample for this code is the MBZUAI promotional video found in [here](https://www.youtube.com/watch?v=ccrbvLG4JYw). The demo output sample images are in samples/inputs folder.   
 - The `animeganplus.ipynb` contains the code for AnimeGANplus. We rewrote the [original AnimeGAN code](https://github.com/TachibanaYoshino/AnimeGAN), upon which AnimeGANplus is based, as a Jupyter notebook for ease of editing.
  
