@@ -1,4 +1,4 @@
-# 🚀 AnimeGANplus 
+# :movie_camera: AnimeGANplus 
 This repository contains our work on movie to cartoon translation with AnimeGANplus.
 
 Please note that you may setup the required dependencies for running the Jupyter notebooks using 
@@ -6,7 +6,7 @@ Please note that you may setup the required dependencies for running the Jupyter
 
 
 The role of the various files and folders is as follows:
-- Before making any changes to the [original AnimeGAN code](https://github.com/TachibanaYoshino/AnimeGAN), we carefully reorganised it into the Jupyter nnotebook, `animeganplus.ipynb` for ease of editing.
+- `animeganplus.ipynb`- before making any changes to the [original AnimeGAN code](https://github.com/TachibanaYoshino/AnimeGAN), we carefully reorganised it into a Jupyter notebook,  for ease of editing.
 - The `FID_tensorflow.ipynb` can be used to calculate the Frechet Inception Distance (FID) between true and generated cartoonised images. Demo input samples are in the folders: fid_samples/FID_generated_images and fid_samples/FID_original_images.  
 - The Linux commands in `ffmpeg.txt` can be used for video editing techniques such as stitching videos together downsampling, and addition of sound
 - The `video_maker.ipynb` contains the code for stitching output frames from our model into a final movie result
