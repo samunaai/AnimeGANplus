@@ -1,5 +1,5 @@
-# 🚀 AnimeGANplus 
-This repository contains our work on movie to cartoon translation with AnimeGANplus. :movie_camera:
+# AnimeGANplus :movie_camera:
+This repository contains our work on movie to cartoon translation with AnimeGANplus.
 
 Please note that you may setup the required dependencies for running the Jupyter notebooks using 
 `conda env create -f environment.yml`.
@@ -16,13 +16,12 @@ The role of the various files and folders is as follows:
  
 The three training datasets for AnimeGANplus can be downloaded using a single block of code included in the `animeganplus.ipynb` file.
 
-Sample cartoonised videos can be found in the links below:
+🚀 Sample cartoonised videos can be found in the links below:
 1. Star Wars Animations [link](https://www.youtube.com/watch?v=jhuv-PCNcok) 
 2. MBZUAI Students Visit Dubai [link](https://youtu.be/SshWGqukons)
 
-Here are some pictures from out AnimeGANplus paper:
-
-😊 Comparison of authors (1st column) using Hayao (2nd column), Paprika (3rd column) and Shinkai styles (4th column)
+🚀 Here are some pictures from out AnimeGANplus paper:
+Comparison of authors (1st column) using Hayao (2nd column), Paprika (3rd column) and Shinkai styles (4th column)
 ![authors_method](https://user-images.githubusercontent.com/22077758/116824306-8931fd00-ab9a-11eb-95e6-e2640423fc44.png)
 
 
