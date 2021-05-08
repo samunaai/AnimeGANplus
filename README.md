@@ -18,8 +18,8 @@ The role of the various files and folders is as follows:
 The three training datasets for AnimeGANplus can be downloaded using a single block of code included in the `animeganplus.ipynb` file.
 
 :movie_camera: Sample cartoonised videos can be found in the links below:
-1. Animated message from Obama[link](https://youtu.be/TNwG5Q4By6E)
-2. Elon Musk cartoonised[link](https://youtu.be/n003XIMDOhw)
+1. Animated message from Obama [link](https://youtu.be/TNwG5Q4By6E)
+2. Elon Musk cartoonised [link](https://youtu.be/n003XIMDOhw)
 3. Star Wars Animations [link](https://www.youtube.com/watch?v=jhuv-PCNcok) 
 4. MBZUAI Students Visit Dubai [link](https://youtu.be/SshWGqukons)
 
