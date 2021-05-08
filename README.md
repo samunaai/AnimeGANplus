@@ -26,7 +26,7 @@ Comparison of authors (1st column) using Hayao (2nd column), Paprika (3rd column
 
 
 
-AnimeGANplus (2nd row), converges faster with fewer artefacts than AnimeGANv1 (1st row)
+Layer norm (2nd row) indeed converges faster with fewer artefacts than instance norm (1st row)
 ![epoch](https://user-images.githubusercontent.com/22077758/116824321-9949dc80-ab9a-11eb-8182-15c0dd1654a3.png)
 
 
